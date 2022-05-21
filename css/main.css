@@ -1539,54 +1539,87 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 @media screen and (max-width:1100px) {
   .header-logo {
-    right: 4rem;
+    
+    right: 1rem;
   }
 
   .header-email {
-    left: 4rem;
+    
+    font-size: 2rem;
+    left: 3.2rem;
   }
-
+  .header-logo img {
+    
+       height: 40% ;
+  
+     }
 }
 
 @media screen and (max-width:800px) {
   .s-header {
-    top: 1.6rem;
+    top: 1.8rem;
   }
 
+  .header-email {
+    margin-top: 10vh ;
+    font-size: 2rem;
+    left: 3.2rem;
+  }
   .header-logo img {
-    width: 125px;
-    height: 20px;
-  }
-
+    margin-top: 20vh ;
+       height: 40% ;
+  
+     }
 }
 
 @media screen and (max-width:600px) {
-  .header-logo img {
-    width: 120px;
-    height: 19px;
+  .header-email {
+    margin-top: 10vh ;
+    font-size: 2rem;
+    left: 3.2rem;
   }
+  .header-logo img {
+    margin-top: 20vh ;
+       height: 40% ;
+  
+     }
 
 }
 
 @media screen and (max-width:500px) {
   .header-logo {
+    
     right: 3.2rem;
+
   }
 
   .header-email {
+    margin-top: 10vh ;
+    font-size: 2rem;
     left: 3.2rem;
   }
+  .header-logo img {
+    margin-top: 20vh ;
+       height: 40% ;
+  
+     }
 
 }
 
 @media screen and (max-width:400px) {
   .header-logo {
     right: auto;
-    left: 4.2rem;
+    left: 4rem;
   }
 
   .header-email {
     display: none;
+  }
+
+  .header-logo img {
+ margin-top: 20vh ;
+    height: 50% ;
+  
   }
 
 }
@@ -2925,3 +2958,4 @@ html.no-csstransitions .intro-content__bottom {
 .whitecolor{
   color: white !important;
 }
+
